@@ -85,7 +85,7 @@ nav .navContainer .C-T-A:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(/images/Landing/LandingBgImg.png);
+  background: url(../images/Landing/LandingBgImg.png);
   background-color: #323232;
   background-blend-mode: multiply;
   background-size: cover;
@@ -98,7 +98,7 @@ nav .navContainer .C-T-A:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(/images/OurStory/OurStoryBgImg.png);
+  background: url(../images/OurStory/OurStoryBgImg.png);
   background-color: #323232;
   background-blend-mode: multiply;
   background-size: cover;
@@ -112,7 +112,7 @@ nav .navContainer .C-T-A:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(/images/Events/EventsBgImg.png);
+  background: url(../images/Events/EventsBgImg.png);
   background-color: #323232;
   background-blend-mode: multiply;
   background-size: cover;
@@ -126,7 +126,7 @@ nav .navContainer .C-T-A:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(/images/Contact/ContactBgImg.png);
+  background: url(../images/Contact/ContactBgImg.png);
   background-color: #323232;
   background-blend-mode: multiply;
   background-size: cover;
@@ -377,7 +377,7 @@ nav .navContainer .C-T-A:hover {
 
 .gallery {
   min-height: 130vh;
-  background: url(/images/Landing/GalleryBgImg.png);
+  background: url(../images/Landing/GalleryBgImg.png);
   background-color: #323232;
   background-blend-mode: multiply;
   background-size: cover;
@@ -643,6 +643,8 @@ nav .navContainer .C-T-A:hover {
           justify-content: space-evenly;
   background-color: white;
   border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .story-section .container-story .boxcs1 .story-text-1 {
@@ -785,7 +787,7 @@ nav .navContainer .C-T-A:hover {
   border-radius: 10px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  background-image: url(/images/Contact/FormBgImg.png);
+  background-image: url(../images/Contact/FormBgImg.png);
   background-size: cover;
   background-position-x: 80%;
 }
@@ -1246,7 +1248,7 @@ footer .container-socials svg {
     background-position-x: 40%;
   }
   .hero .hero-text-h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .contact-details-landing {
     height: 100vh;
@@ -1269,7 +1271,7 @@ footer .container-socials svg {
     grid-area: box2;
   }
   .gallery {
-    background: url(/images/Landing/GalleryBgImg2.svg);
+    background: url(../images/Landing/GalleryBgImg2.svg);
     /* background by SVGBackgrounds.com */
   }
   .reviews .container-reviews .reviews-card .box-rc1 {
@@ -1290,13 +1292,13 @@ footer .container-socials svg {
   }
   .story-section .container-story .boxcs1 .img-1 {
     height: 100fr;
-    width: 80%;
+    width: 100%;
     margin: auto;
     border-radius: 5px;
   }
   .story-section .container-story .boxcs1 .img-2 {
     height: 100fr;
-    width: 80%;
+    width: 100%;
     margin: auto;
     border-radius: 5px;
   }
@@ -1325,27 +1327,13 @@ footer .container-socials svg {
   footer .container-footer .container-help {
     padding-top: 2.5em;
   }
-}
-
-@-webkit-keyframes introLoad {
-  from {
-    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
-            clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+  footer .container-socials {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  to {
-    -webkit-clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
-            clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
-  }
-}
-
-@keyframes introLoad {
-  from {
-    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
-            clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
-  }
-  to {
-    -webkit-clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
-            clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+  footer .container-socials svg {
+    padding: 0.5em;
   }
 }
 /*# sourceMappingURL=styles.css.map */

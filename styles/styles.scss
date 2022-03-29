@@ -83,7 +83,7 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/images/Landing/LandingBgImg.png);
+    background: url(../images/Landing/LandingBgImg.png);
     background-color: $primary_color;
     background-blend-mode: multiply;
     background-size: cover;
@@ -95,7 +95,7 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/images/OurStory/OurStoryBgImg.png);
+    background: url(../images/OurStory/OurStoryBgImg.png);
     background-color: $primary_color;
     background-blend-mode: multiply;
     background-size: cover;
@@ -108,7 +108,7 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/images/Events/EventsBgImg.png);
+    background: url(../images/Events/EventsBgImg.png);
     background-color: #323232;
     background-blend-mode: multiply;
     background-size: cover;
@@ -121,7 +121,7 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/images/Contact/ContactBgImg.png);
+    background: url(../images/Contact/ContactBgImg.png);
     background-color: $primary_color;
     background-blend-mode: multiply;
     background-size: cover;
@@ -317,7 +317,7 @@ nav {
 
 .gallery {
     min-height: 130vh;
-    background: url(/images/Landing/GalleryBgImg.png);
+    background: url(../images/Landing/GalleryBgImg.png);
     background-color: $primary_color;
     background-blend-mode: multiply;
     background-size: cover;
@@ -546,6 +546,7 @@ nav {
             justify-content: space-evenly;
             background-color: $white;
             border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
             .story-text-1 {
                 color: $primary_color;
@@ -667,7 +668,7 @@ nav {
             border-radius: 10px;
             border-top-right-radius: 0;
             border-bottom-right-radius: 0;
-            background-image: url(/images/Contact/FormBgImg.png);
+            background-image: url(../images/Contact/FormBgImg.png);
             background-size: cover;
             background-position-x: 80%;
 
@@ -1078,7 +1079,7 @@ footer {
 
     .hero {
         .hero-text-h1 {
-            font-size: 1.7rem;
+            font-size: 1.5rem;
         }
     }
 
@@ -1102,7 +1103,7 @@ footer {
     }
 
     .gallery {
-        background: url(/images/Landing/GalleryBgImg2.svg);
+        background: url(../images/Landing/GalleryBgImg2.svg);
         /* background by SVGBackgrounds.com */
     }
 
@@ -1130,13 +1131,13 @@ footer {
 
                 .img-1 {
                     height: 100fr;
-                    width: 80%;
+                    width: 100%;
                     margin: auto;
                     border-radius: 5px;
                 }
                 .img-2 {
                     height: 100fr;
-                    width: 80%;
+                    width: 100%;
                     margin: auto;
                     border-radius: 5px;
                 }
@@ -1163,14 +1164,11 @@ footer {
                 padding-top: 2.5em;
             }
         }
-    }
-}
-
-@keyframes introLoad {
-    from {
-        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
-    }
-    to {
-        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+        .container-socials {
+            justify-content: center;
+            svg {
+                padding: 0.5em;
+            }
+        }
     }
 }
