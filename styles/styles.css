@@ -1248,12 +1248,16 @@ footer .container-socials svg {
     background-position-x: 40%;
   }
   .hero .hero-text-h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+  }
+  .hero button {
+    margin-top: 1em;
   }
   .contact-details-landing {
     height: 100vh;
   }
   .contact-details-landing .cdl-container {
+    height: 90%;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 1fr;
@@ -1275,13 +1279,13 @@ footer .container-socials svg {
     /* background by SVGBackgrounds.com */
   }
   .reviews .container-reviews .reviews-card .box-rc1 {
-    padding-bottom: 1em;
+    margin-bottom: 1em;
   }
   .reviews .container-reviews .reviews-card .box-rc2 {
-    padding-bottom: 1em;
+    margin-bottom: 1em;
   }
   .reviews .container-reviews .reviews-card .box-rc3 {
-    padding-bottom: 1em;
+    margin-bottom: 1em;
   }
   .story-section .container-story .boxcs1 {
     -webkit-box-orient: vertical;

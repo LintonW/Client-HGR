@@ -1079,7 +1079,11 @@ footer {
 
     .hero {
         .hero-text-h1 {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
+        }
+
+        button {
+            margin-top: 1em;
         }
     }
 
@@ -1087,6 +1091,7 @@ footer {
         height: 100vh;
 
         .cdl-container {
+            height: 90%;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr;
             grid-template-areas:
@@ -1111,13 +1116,13 @@ footer {
         .container-reviews {
             .reviews-card {
                 .box-rc1 {
-                    padding-bottom: 1em;
+                    margin-bottom: 1em;
                 }
                 .box-rc2 {
-                    padding-bottom: 1em;
+                    margin-bottom: 1em;
                 }
                 .box-rc3 {
-                    padding-bottom: 1em;
+                    margin-bottom: 1em;
                 }
             }
         }
