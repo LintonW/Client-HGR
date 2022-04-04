@@ -1255,6 +1255,7 @@ footer .container-socials svg {
   }
   .contact-details-landing {
     height: 100vh;
+    padding-bottom: 2em;
   }
   .contact-details-landing .cdl-container {
     height: 100%;
